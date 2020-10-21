@@ -64,21 +64,6 @@ let strokeEndAnimation: CAKeyframeAnimation = {
 }()
 ```
 
-# Indicator Types
-
-| | | | | |
-|---|---|---|---|---|
-| `barista` | `breathe` | `caught` | `charting` | `compass` |
-| `cradle` | `dashed` | `deceptive` | `dialed` | `differences` |
-| `dottingAroundCircle` | `dottingAroundSquare` | `dottingAroundTriangle` | `doubleTime` | `fire` |
-| `flowWheel` | `gradientRing` | `griddy` | `gridlock` | `hal` |
-| `hexa` | `hicks` | `infinity` | `magician` | `mountains` |
-| `moveAlong` | `nonover` | `overlapping` | `penta` | `quarbit` |
-| `queued` | `rainbow` | `reflect` | `ripley` | `ringItIn` |
-| `roulette` | `shiftDrift` | `shkwv` | `showingUp` | `skeu` |
-| `spinUp` | `spindle` | `spinning` | `splayed` | `standby` |
-| `stretchAround` | `squareUp` | `triplex` | `tumble` | `xact` |
-
 # Installation
 When we ship a cocoapod for this project, we'll update the instructions here.
 
@@ -94,3 +79,61 @@ For now, please download and install manually.
 <Animation>Timeline.swift
 <Animation>View.swift
 ```
+
+# Types & Inspirations
+We love Dribbble and find a lot of inspiration from other designers' creative work. A lot of the animations in this project were originally inspired by other people's great work, which we riffed on and added our own flair. We've posted each indicator to our account, and in the writeup we've referenced the original post or work. Over the next 25 days we're posting all 50 animations / indicators and will add a link below.
+
+Below is the list of all 50, and the names are identical to the `enum` cases in the project.
+
+| type name | inspiration |
+|---|---|
+| `barista` |  |
+| `breathe` |  |
+| `caught` |  |
+| `charting` |  |
+| `compass` |  |
+| `cradle` |  |
+| `dashed` |  |
+| `deceptive` |  |
+| `dialed` |  |
+| `differences` |  |
+| `dottingAroundCircle` | https://dribbble.com/shots/14418568-Dotting-Around-Circle |
+| `dottingAroundSquare` | https://dribbble.com/shots/14418857-Dotting-Around-Square |
+| `dottingAroundTriangle` | https://dribbble.com/shots/14419096-Dotting-Around-Triangle |
+| `doubleTime` |  |
+| `fire` |  |
+| `flowWheel` |  |
+| `gradientRing` |  |
+| `griddy` |  |
+| `gridlock` |  |
+| `hal |
+| `hexa` |  |
+| `hicks` |  |
+| `infinity` |  |
+| `magician` |  |
+| `mountains` |  |
+| `moveAlong` |  |
+| `nonover` | https://dribbble.com/shots/14426280-Nonover |
+| `overlapping` | https://dribbble.com/shots/14426206-Overlapping |
+| `penta` |  |
+| `quarbit` |  |
+| `queued` |  |
+| `rainbow` |  |
+| `reflect` |  |
+| `ripley` |  |
+| `ringItIn` |  |
+| `roulette` |  |
+| `shiftDrift` |  |
+| `shkwv` |  |
+| `showingUp` |  |
+| `skeu` |  |
+| `spinUp` |  |
+| `spindle` |  |
+| `spinning` |  |
+| `splayed` |  |
+| `standby` |  |
+| `stretchAround` | https://dribbble.com/shots/14419134-Stretch-Around |
+| `squareUp` |  |
+| `triplex` |  |
+| `tumble` |  |
+| `xact` |  |
