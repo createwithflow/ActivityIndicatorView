@@ -85,7 +85,7 @@ We love Dribbble and find a lot of inspiration from other designers' creative wo
 
 Below is the list of all 50, and the names are identical to the `enum` cases in the project.
 
-| type name | inspiration |
+| type name | shot |
 |---|---|
 | `barista` |  |
 | `breathe` |  |
