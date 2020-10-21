@@ -8,7 +8,7 @@
 #### Made with [Flow](https://createwithflow.com/?utm_source=github&utm_medium=activityindicatorview).<br />
 
 # Story
-We created and shipped all 50 of these animations in **48 hours**. We drew on inspirations from Dribbble, some design was done in Sketch. All code was exported using the `Custom iOS Activity Indicator` option in [Flow](https://createwithflow.com/?utm_source=github&utm_medium=activityindicatorview).
+**We created and shipped all 50 of these animations in 48 hours**. We drew on inspirations from Dribbble, some design was done in Sketch. All code was exported using the `Custom iOS Activity Indicator` option in [Flow](https://createwithflow.com/?utm_source=github&utm_medium=activityindicatorview).
 
 Check back soon for our blog post about the process.
 
@@ -80,8 +80,10 @@ For now, please download and install manually.
 <Animation>View.swift
 ```
 
-# Types & Inspirations
-We love Dribbble and find a lot of inspiration from other designers' creative work. A lot of the animations in this project were originally inspired by other people's great work, which we riffed on and added our own flair. We've posted each indicator to our account, and in the writeup we've referenced the original post or work. Over the next 25 days we're posting all 50 animations / indicators and will add a link below.
+# Types & Shots
+We love Dribbble and a lot of the animations in this project were originally inspired by other people's great work, which we riffed on and added our own flair and rebounded with links to the original post and designer. Each indicator is posted to [Flow's Official Dribbble Account](https://dribbble.com/createwithflow), and in the writeup for each shot we've referenced the original, and the maker. 
+
+Over the next 25 days we're posting all 50 animations / indicators and will add a link below as the shots go live.
 
 Below is the list of all 50, and the names are identical to the `enum` cases in the project.
 
