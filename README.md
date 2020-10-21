@@ -97,9 +97,9 @@ Below is the list of all 50, and the names are identical to the `enum` cases in 
 | `deceptive` |  |
 | `dialed` |  |
 | `differences` |  |
-| `dottingAroundCircle` | https://dribbble.com/shots/14418568-Dotting-Around-Circle |
-| `dottingAroundSquare` | https://dribbble.com/shots/14418857-Dotting-Around-Square |
-| `dottingAroundTriangle` | https://dribbble.com/shots/14419096-Dotting-Around-Triangle |
+| `dottingAroundCircle` | [Dotting Around - Circle](https://dribbble.com/shots/14418568-Dotting-Around-Circle) |
+| `dottingAroundSquare` | [Dotting Around - Square](https://dribbble.com/shots/14418857-Dotting-Around-Square) |
+| `dottingAroundTriangle` | [Dotting Around - Triangle](https://dribbble.com/shots/14419096-Dotting-Around-Triangle) |
 | `doubleTime` |  |
 | `fire` |  |
 | `flowWheel` |  |
@@ -113,8 +113,8 @@ Below is the list of all 50, and the names are identical to the `enum` cases in 
 | `magician` |  |
 | `mountains` |  |
 | `moveAlong` |  |
-| `nonover` | https://dribbble.com/shots/14426280-Nonover |
-| `overlapping` | https://dribbble.com/shots/14426206-Overlapping |
+| `nonover` | [Nonover](https://dribbble.com/shots/14426280-Nonover) |
+| `overlapping` | [Overlapping](https://dribbble.com/shots/14426206-Overlapping) |
 | `penta` |  |
 | `quarbit` |  |
 | `queued` |  |
@@ -132,7 +132,7 @@ Below is the list of all 50, and the names are identical to the `enum` cases in 
 | `spinning` |  |
 | `splayed` |  |
 | `standby` |  |
-| `stretchAround` | https://dribbble.com/shots/14419134-Stretch-Around |
+| `stretchAround` | [Stretch Around](https://dribbble.com/shots/14419134-Stretch-Around) |
 | `squareUp` |  |
 | `triplex` |  |
 | `tumble` |  |
