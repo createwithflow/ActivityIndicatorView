@@ -40,8 +40,8 @@ GriddyActivityIndicatorView: ActivityIndicatorView {
 }
 ```
 
-# Flow Common
-Animations are written in swift, and require a few lightweight classes for managing views. These can be found in [FlowCommoniOS](https://github.com/createwithflow/FlowCommoniOS).
+# Native Animation Code
+Animations are written in Swift. They require a few lightweight classes that can be found in [FlowCommoniOS](https://github.com/createwithflow/FlowCommoniOS).
 
 Our animations take full advantage of native Core Animation, most prominently `CAKeyFrameAnimation`.
 
@@ -59,3 +59,11 @@ let strokeend_pentagon: CAKeyframeAnimation = {
     return keyframeAnimation
 }()
 ```
+
+# Indicator Types
+
+| barista | breathe | caught | charting | compass | cradle | dashed | deceptive | dialed | differences | 
+|dottingAroundCircle | dottingAroundSquare | dottingAroundTriangle | doubleTime | fire | flowWheel | gradientRing | griddy | gridlock | hal |
+| hexa | hicks | infinity | magician | mountains | moveAlong | nonover | overlapping | penta | quarbit |
+| queued | rainbow | reflect | ripley | ringItIn | roulette | shiftDrift | shkwv | showingUp | skeu |
+| spinUp | spindle | spinning | splayed | standby | stretchAround | squareUp | triplex | tumble | xact |
