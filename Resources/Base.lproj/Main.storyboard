@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gNs-5D-dvo">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="59996CC8-EE79-446B-8C82-10BB325EC732">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="ViewController" customClass="ViewController" customModule="ActivityIndicatorView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZuF-6O-3Mt"/>
+                        <viewControllerLayoutGuide type="bottom" id="OsO-nd-uHT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6D58B847-D050-450C-A8E0-9EC25456A61A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="d8R-EC-ZaD">
+                                <rect key="frame" x="47" y="113" width="281" height="586"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="fXR-Et-anP">
+                                        <rect key="frame" x="0.0" y="0.0" width="281" height="37"/>
+                                        <subviews>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="ZvZ-83-gmc" customClass="BaristaActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="pJl-At-GIX" customClass="BreatheActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="61" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="xgP-on-feS" customClass="CaughtActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="122" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Mis-2G-5bv" customClass="ChartingActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="183" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="XPa-fz-bEq" customClass="CompassActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="244" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="pcb-3w-p1W">
+                                        <rect key="frame" x="0.0" y="61" width="281" height="37"/>
+                                        <subviews>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Nkz-dy-9Ih" customClass="CradleActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="1iy-RF-2mA" customClass="DashedActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="61" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="KSX-Mc-UDy" customClass="DeceptiveActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="122" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="7ve-yH-8i5" customClass="DialedActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="183" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="E3H-Tn-GI2" customClass="DifferencesActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="244" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="sty-Z9-CPR">
+                                        <rect key="frame" x="0.0" y="122" width="281" height="37"/>
+                                        <subviews>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="A57-wM-G5t" customClass="DottingAroundCircleActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="aJG-sH-0Cp" customClass="DottingAroundSquareActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="61" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="f42-WI-MsR" customClass="DottingAroundTriangleActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="122" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Ymn-3v-gvZ" customClass="DoubleTimeActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="183" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="NDX-yi-xeC" customClass="FireActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="244" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="zHL-w4-4Sj">
+                                        <rect key="frame" x="0.0" y="183" width="281" height="37"/>
+                                        <subviews>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="W94-bc-C7g" customClass="FlowWheelActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Gso-hv-6wm" customClass="GradientRingActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="61" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="dtD-9r-tSp" customClass="GriddyActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="122" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="OiZ-ek-yvV" customClass="GridlockActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="183" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="O5T-s1-lQb" customClass="HalActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="244" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="FQW-88-tyF">
+                                        <rect key="frame" x="0.0" y="244" width="281" height="37"/>
+                                        <subviews>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="ABF-Gz-l2h" customClass="HexaActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="ELb-ZJ-Dl8" customClass="HicksActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="61" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="ipi-Jx-Lob" customClass="InfinityActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="122" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="o6B-Vj-yHv" customClass="MagicianActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="183" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="cP7-Mp-o73" customClass="MountainsActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="244" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="lwa-U6-c9M">
+                                        <rect key="frame" x="0.0" y="305" width="281" height="37"/>
+                                        <subviews>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="vtD-1p-cmc" customClass="MoveAlongActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="RQ6-mw-hml" customClass="NonoverActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="61" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="eQ3-Zg-fXn" customClass="OverlappingActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="122" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="q0M-kT-EpT" customClass="PentaActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="183" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="yGv-Qq-tAL" customClass="QuarbitActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="244" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="JMK-W4-T2o">
+                                        <rect key="frame" x="0.0" y="366" width="281" height="37"/>
+                                        <subviews>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Wef-36-I0X" customClass="QueuedActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="sCb-bd-izc" customClass="RainbowActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="61" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="nOM-hf-Q7v" customClass="ReflectActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="122" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="EjG-QB-qhd" customClass="RingItInActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="183" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="1vt-Xe-1XA" customClass="RipleyActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="244" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="fwK-H1-Qor">
+                                        <rect key="frame" x="0.0" y="427" width="281" height="37"/>
+                                        <subviews>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="SWO-Yh-AxW" customClass="RouletteActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Ajj-Lr-7JW" customClass="ShiftDriftActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="61" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="DLc-Cl-4Ce" customClass="ShkwvActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="122" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="K4B-o2-CKb" customClass="ShowingUpActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="183" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="NHQ-Ix-oBz" customClass="SkeuActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="244" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="ROs-gn-VJh">
+                                        <rect key="frame" x="0.0" y="488" width="281" height="37"/>
+                                        <subviews>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="g8I-n3-OQb" customClass="SpindleActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="RH1-oV-ukA" customClass="SpinningActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="61" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="d4B-Z5-6dt" customClass="SpinUpActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="122" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="4h3-Wh-w7s" customClass="SplayedActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="183" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="yDb-Nk-ObD" customClass="SquareUpActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="244" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="fx8-3G-ylT">
+                                        <rect key="frame" x="0.0" y="549" width="281" height="37"/>
+                                        <subviews>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="yVI-Og-aPi" customClass="StandByActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="X0K-3m-clN" customClass="StretchAroundActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="61" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="g4q-3w-5Wz" customClass="TriplexActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="122" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="gWZ-V6-XRw" customClass="TumbleActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="183" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Lz1-gY-oOC" customClass="XactActivityIndicatorView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                                <rect key="frame" x="244" y="0.0" width="37" height="37"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="d8R-EC-ZaD" firstAttribute="centerY" secondItem="6D58B847-D050-450C-A8E0-9EC25456A61A" secondAttribute="centerY" id="i2T-NU-QoJ"/>
+                            <constraint firstItem="d8R-EC-ZaD" firstAttribute="centerX" secondItem="6D58B847-D050-450C-A8E0-9EC25456A61A" secondAttribute="centerX" id="utG-vQ-sRX"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DEFA8164-9123-4EE6-AD7F-AB3F4AA0D679" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Launch Animation View Controller-->
+        <scene sceneID="uPg-I4-Jwi">
+            <objects>
+                <viewController id="gNs-5D-dvo" customClass="LaunchAnimationViewController" customModule="ActivityIndicatorView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lws-Dv-aGB"/>
+                        <viewControllerLayoutGuide type="bottom" id="NOy-1h-cy6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lsv-YY-aZj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJs-KB-Ydh" customClass="LaunchAnimationView" customModule="ActivityIndicatorView" customModuleProvider="target">
+                                <rect key="frame" x="42.666666666666657" y="376" width="290" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="F34-UY-EOV"/>
+                                    <constraint firstAttribute="width" constant="290" id="lnu-tW-77y"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CJs-KB-Ydh" firstAttribute="centerY" secondItem="Lsv-YY-aZj" secondAttribute="centerY" id="Uwo-hT-4Ki"/>
+                            <constraint firstItem="CJs-KB-Ydh" firstAttribute="centerX" secondItem="Lsv-YY-aZj" secondAttribute="centerX" id="pPV-qb-LTz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scene" destination="CJs-KB-Ydh" id="KDI-Qj-fDB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vxw-N1-2S8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1" y="649"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="1iy-RF-2mA">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="1vt-Xe-1XA">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="4h3-Wh-w7s">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="7ve-yH-8i5">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="A57-wM-G5t">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="ABF-Gz-l2h">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="Ajj-Lr-7JW">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="CJs-KB-Ydh">
+            <size key="intrinsicContentSize" width="290" height="60"/>
+        </designable>
+        <designable name="DLc-Cl-4Ce">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="E3H-Tn-GI2">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="ELb-ZJ-Dl8">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="EjG-QB-qhd">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="Gso-hv-6wm">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="K4B-o2-CKb">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="KSX-Mc-UDy">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="Lz1-gY-oOC">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="Mis-2G-5bv">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="NDX-yi-xeC">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="NHQ-Ix-oBz">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="Nkz-dy-9Ih">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="O5T-s1-lQb">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="OiZ-ek-yvV">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="RH1-oV-ukA">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="RQ6-mw-hml">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="SWO-Yh-AxW">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="W94-bc-C7g">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="Wef-36-I0X">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="X0K-3m-clN">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="XPa-fz-bEq">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="Ymn-3v-gvZ">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="ZvZ-83-gmc">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="aJG-sH-0Cp">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="cP7-Mp-o73">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="d4B-Z5-6dt">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="dtD-9r-tSp">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="eQ3-Zg-fXn">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="f42-WI-MsR">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="g4q-3w-5Wz">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="g8I-n3-OQb">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="gWZ-V6-XRw">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="ipi-Jx-Lob">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="nOM-hf-Q7v">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="o6B-Vj-yHv">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="pJl-At-GIX">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="q0M-kT-EpT">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="sCb-bd-izc">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="vtD-1p-cmc">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="xgP-on-feS">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="yDb-Nk-ObD">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="yGv-Qq-tAL">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+        <designable name="yVI-Og-aPi">
+            <size key="intrinsicContentSize" width="37" height="37"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
