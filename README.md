@@ -53,14 +53,13 @@ Our animations take full advantage of native Core Animation, most prominently `C
 Here is a sample of our animation code:
 
 ```
-let strokeend_pentagon: CAKeyframeAnimation = {
+let strokeEndAnimation: CAKeyframeAnimation = {
     let keyframeAnimation = CAKeyframeAnimation()
     keyframeAnimation.keyPath = "strokeEnd"
     keyframeAnimation.values = [0.16, 0.99]
     keyframeAnimation.keyTimes = [0, 1] 
     keyframeAnimation.timingFunctions = [.easeInEaseOut]
     keyframeAnimation.duration = duration
-    
     return keyframeAnimation
 }()
 ```
