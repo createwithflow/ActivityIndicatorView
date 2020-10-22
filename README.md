@@ -129,13 +129,13 @@ Below is the list of all 50, and the names are identical to the `enum` cases in 
 | `shkwv` |  |
 | `showingUp` |  |
 | `skeu` |  |
-| `spinUp` |  |
+| `spinUp` | [Spin Up](https://dribbble.com/shots/14433455-Spin-Up) |
 | `spindle` |  |
 | `spinning` |  |
 | `splayed` |  |
 | `standby` |  |
 | `stretchAround` | [Stretch Around](https://dribbble.com/shots/14419134-Stretch-Around) |
-| `squareUp` |  |
+| `squareUp` | [Shape Up](https://dribbble.com/shots/14433531-Shape-Up) |
 | `triplex` |  |
 | `tumble` |  |
 | `xact` |  |
