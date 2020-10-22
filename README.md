@@ -1,9 +1,9 @@
-<img src="https://github.com/createwithflow/ActivityIndicatorView/blob/main/Assets/flow-logo%402x.png" width="180" />
+<img src="https://github.com/createwithflow/ActivityIndicatorView/blob/main/Assets/flow-logo%402x.png" width="120" />
 
 # ActivityIndicatorView
 <img align="right" src="https://github.com/createwithflow/ActivityIndicatorView/blob/main/Assets/demo.gif" width="320" />
 
-#### A set of 50 awesome loading indicators, free to use.<br />
+#### A set of 50 awesome loading indicators, <u>FREE to use.</u><br />
 #### Written in pure Swift, using Core Animation.<br />
 #### Made with [Flow](https://createwithflow.com/?utm_source=github&utm_medium=activityindicatorview).<br />
 
