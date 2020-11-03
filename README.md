@@ -8,7 +8,7 @@
 #### Made with [Flow](https://createwithflow.com/?utm_source=github&utm_medium=activityindicatorview).<br />
 
 # Story
-**We created and shipped all 50 of these animations in 48 hours**. We drew on inspirations from Dribbble, some design was done in Sketch. All code was exported using the `Custom iOS Activity Indicator` option in [Flow](https://createwithflow.com/?utm_source=github&utm_medium=activityindicatorview).
+**We created and shipped all 50 of these animations in 48 hours**. We drew on inspirations from Dribbble, most designs were created in Sketch or Figma, and some were rolled from scratch in Flow. All code was exported using the `Custom iOS Activity Indicator` option in [Flow](https://createwithflow.com/?utm_source=github&utm_medium=activityindicatorview).
 
 Check back soon for our blog post about the process.
 
@@ -108,7 +108,7 @@ Below is the list of all 50, and the names are identical to the `enum` cases in 
 | `gradientRing` |  |
 | `griddy` |  |
 | `gridlock` | [Gridlock](https://dribbble.com/shots/14442786-Gridlock) |
-| `hal |
+| `hal` | [Hal](https://dribbble.com/shots/14446216-Hal) |
 | `hexa` |  |
 | `hicks` |  |
 | `infinity` |  |
@@ -131,7 +131,7 @@ Below is the list of all 50, and the names are identical to the `enum` cases in 
 | `skeu` | [Skeu](https://dribbble.com/shots/14446891-Skeu) |
 | `spinUp` | [Spin Up](https://dribbble.com/shots/14433455-Spin-Up) |
 | `spindle` | [Spindle](https://dribbble.com/shots/14442720-Spindle) |
-| `spinning` |  |
+| `spinning` | [Spinning](https://dribbble.com/shots/14446235-Spinning) |
 | `splayed` |  |
 | `standby` |  |
 | `stretchAround` | [Stretch Around](https://dribbble.com/shots/14419134-Stretch-Around) |
