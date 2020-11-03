@@ -91,46 +91,46 @@ Below is the list of all 50, and the names are identical to the `enum` cases in 
 |---|---|
 | `barista` |  |
 | `breathe` |  |
-| `caught` |  |
+| `caught` | [Caught](https://dribbble.com/shots/14442888-Caught) |
 | `charting` |  |
 | `compass` |  |
-| `cradle` |  |
-| `dashed` |  |
+| `cradle` | [Cradle](https://dribbble.com/shots/14433554-Cradle) |
+| `dashed` | [Dashed](https://dribbble.com/shots/14433633-Dashed) |
 | `deceptive` |  |
 | `dialed` |  |
-| `differences` |  |
+| `differences` | [Differences](https://dribbble.com/shots/14442910-Differences) |
 | `dottingAroundCircle` | [Dotting Around - Circle](https://dribbble.com/shots/14418568-Dotting-Around-Circle) |
 | `dottingAroundSquare` | [Dotting Around - Square](https://dribbble.com/shots/14418857-Dotting-Around-Square) |
 | `dottingAroundTriangle` | [Dotting Around - Triangle](https://dribbble.com/shots/14419096-Dotting-Around-Triangle) |
 | `doubleTime` |  |
 | `fire` |  |
-| `flowWheel` |  |
+| `flowWheel` | [Flow Wheel](https://dribbble.com/shots/14442597-FlowWheel) |
 | `gradientRing` |  |
 | `griddy` |  |
-| `gridlock` |  |
+| `gridlock` | [Gridlock](https://dribbble.com/shots/14442786-Gridlock) |
 | `hal |
 | `hexa` |  |
 | `hicks` |  |
 | `infinity` |  |
 | `magician` |  |
-| `mountains` |  |
+| `mountains` | [Mountains](https://dribbble.com/shots/14442693-Mountains) |
 | `moveAlong` |  |
 | `nonover` | [Nonover](https://dribbble.com/shots/14426280-Nonover) |
 | `overlapping` | [Overlapping](https://dribbble.com/shots/14426206-Overlapping) |
-| `penta` |  |
+| `penta` | [Penta](https://dribbble.com/shots/14442760-Penta) |
 | `quarbit` |  |
-| `queued` |  |
+| `queued` | [Queued](https://dribbble.com/shots/14446172-Queued) |
 | `rainbow` |  |
-| `reflect` |  |
-| `ripley` |  |
+| `reflect` | [Reflect](https://dribbble.com/shots/14442962-Reflect) |
+| `ripley` | [Ripley](https://dribbble.com/shots/14442939-Ripley) |
 | `ringItIn` |  |
 | `roulette` |  |
-| `shiftDrift` |  |
+| `shiftDrift` | [Shift'n'Drift](https://dribbble.com/shots/14442650-Shift-n-Drift) |
 | `shkwv` |  |
 | `showingUp` |  |
-| `skeu` |  |
+| `skeu` | [Skeu](https://dribbble.com/shots/14446891-Skeu) |
 | `spinUp` | [Spin Up](https://dribbble.com/shots/14433455-Spin-Up) |
-| `spindle` |  |
+| `spindle` | [Spindle](https://dribbble.com/shots/14442720-Spindle) |
 | `spinning` |  |
 | `splayed` |  |
 | `standby` |  |
