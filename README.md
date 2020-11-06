@@ -111,22 +111,22 @@ Below is the list of all 50, and the names are identical to the `enum` cases in 
 | `hal` | [Hal](https://dribbble.com/shots/14446216-Hal) |
 | `hexa` |  |
 | `hicks` |  |
-| `infinity` |  |
+| `infinity` | [Infinity](https://dribbble.com/shots/14446324-Infinity) |
 | `magician` |  |
 | `mountains` | [Mountains](https://dribbble.com/shots/14442693-Mountains) |
 | `moveAlong` |  |
 | `nonover` | [Nonover](https://dribbble.com/shots/14426280-Nonover) |
 | `overlapping` | [Overlapping](https://dribbble.com/shots/14426206-Overlapping) |
 | `penta` | [Penta](https://dribbble.com/shots/14442760-Penta) |
-| `quarbit` |  |
+| `quarbit` | [Quarbit](https://dribbble.com/shots/14446292-Quarbit) |
 | `queued` | [Queued](https://dribbble.com/shots/14446172-Queued) |
-| `rainbow` |  |
+| `rainbow` | [Rainbow](https://dribbble.com/shots/14446305-Rainbow) |
 | `reflect` | [Reflect](https://dribbble.com/shots/14442962-Reflect) |
 | `ripley` | [Ripley](https://dribbble.com/shots/14442939-Ripley) |
 | `ringItIn` |  |
 | `roulette` |  |
 | `shiftDrift` | [Shift'n'Drift](https://dribbble.com/shots/14442650-Shift-n-Drift) |
-| `shkwv` |  |
+| `shkwv` | [Shkwv](https://dribbble.com/shots/14446254-Shkwv) |
 | `showingUp` |  |
 | `skeu` | [Skeu](https://dribbble.com/shots/14446891-Skeu) |
 | `spinUp` | [Spin Up](https://dribbble.com/shots/14433455-Spin-Up) |
