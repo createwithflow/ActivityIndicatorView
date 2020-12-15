@@ -8,9 +8,9 @@
 #### Made with [Flow](https://createwithflow.com/?utm_source=github&utm_medium=activityindicatorview).<br />
 
 # Story
-**We created and shipped all 50 of these animations in 48 hours**. We drew on inspirations from Dribbble, most designs were created in Sketch or Figma, and some were rolled from scratch in Flow. All code was exported using the `Custom iOS Activity Indicator` option in [Flow](https://createwithflow.com/?utm_source=github&utm_medium=activityindicatorview).
+**We created and shipped all 50 of these animations in 48 hours**. We drew on [inspirations from Dribbble](https://createwithflow.com/blog/steal-to-learn/?utm_source=github&utm_medium=activityindicatorview), most designs were created in Sketch or Figma, and some were rolled from scratch in Flow. All code was exported using the `Custom iOS Activity Indicator` option in [Flow](https://createwithflow.com/?utm_source=github&utm_medium=activityindicatorview).
 
-Check back soon for our blog post about the process.
+Want to know how we did this so quickly? Check out our article: [Animate and Ship 50 iOS Spinners in 48 hours](https://createwithflow.com/blog/fifty-fortyeight/?utm_source=github&utm_medium=activityindicatorview)
 
 # Usage
 Each class has its own unique initializer. For example:
@@ -78,6 +78,14 @@ For now, please download and install manually.
 <Animation>ActivityIndicatorView.swift
 <Animation>Timeline.swift
 <Animation>View.swift
+```
+
+For example, if you wanted to use the Griddy spinner, you would copy:
+
+```
+GriddyActivityIndicatorView.swift
+GriddyTimeline.swift
+GriddyView.swift
 ```
 
 # Types & Shots
