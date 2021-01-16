@@ -97,32 +97,32 @@ Below is the list of all 50, and the names are identical to the `enum` cases in 
 
 | type name | shot |
 |---|---|
-| `barista` |  |
-| `breathe` |  |
+| `barista` | [Barista](https://dribbble.com/shots/14447030-Barista) |
+| `breathe` | [Breathe](https://dribbble.com/shots/14447107-Breathe) |
 | `caught` | [Caught](https://dribbble.com/shots/14442888-Caught) |
-| `charting` |  |
-| `compass` |  |
+| `charting` | [Charting](https://dribbble.com/shots/14447038-Charting) |
+| `compass` | [Compass](https://dribbble.com/shots/14446822-Compass) |
 | `cradle` | [Cradle](https://dribbble.com/shots/14433554-Cradle) |
 | `dashed` | [Dashed](https://dribbble.com/shots/14433633-Dashed) |
-| `deceptive` |  |
-| `dialed` |  |
+| `deceptive` | [Deceptive](https://dribbble.com/shots/14447135-Deceptive) |
+| `dialed` | [Dialed](https://dribbble.com/shots/14447168-Dialed) |
 | `differences` | [Differences](https://dribbble.com/shots/14442910-Differences) |
 | `dottingAroundCircle` | [Dotting Around - Circle](https://dribbble.com/shots/14418568-Dotting-Around-Circle) |
 | `dottingAroundSquare` | [Dotting Around - Square](https://dribbble.com/shots/14418857-Dotting-Around-Square) |
 | `dottingAroundTriangle` | [Dotting Around - Triangle](https://dribbble.com/shots/14419096-Dotting-Around-Triangle) |
-| `doubleTime` |  |
-| `fire` |  |
+| `doubleTime` | [Double Time](https://dribbble.com/shots/14446438-Double-Time) |
+| `fire` | [Fire](https://dribbble.com/shots/14447099-Fire) |
 | `flowWheel` | [Flow Wheel](https://dribbble.com/shots/14442597-FlowWheel) |
-| `gradientRing` |  |
-| `griddy` |  |
+| `gradientRing` | [Gradient Ring](https://dribbble.com/shots/14446678-Gradient-Ring) |
+| `griddy` | [Griddy](https://dribbble.com/shots/14447156-Griddy) |
 | `gridlock` | [Gridlock](https://dribbble.com/shots/14442786-Gridlock) |
 | `hal` | [Hal](https://dribbble.com/shots/14446216-Hal) |
-| `hexa` |  |
-| `hicks` |  |
+| `hexa` | [Hexa](https://dribbble.com/shots/14446664-Hexa) |
+| `hicks` | [Hicks](https://dribbble.com/shots/14446481-Hicks) |
 | `infinity` | [Infinity](https://dribbble.com/shots/14446324-Infinity) |
-| `magician` |  |
+| `magician` | [Magician](https://dribbble.com/shots/14446188-Magician) |
 | `mountains` | [Mountains](https://dribbble.com/shots/14442693-Mountains) |
-| `moveAlong` |  |
+| `moveAlong` | [Move Along](https://dribbble.com/shots/14446340-Move-Along) |
 | `nonover` | [Nonover](https://dribbble.com/shots/14426280-Nonover) |
 | `overlapping` | [Overlapping](https://dribbble.com/shots/14426206-Overlapping) |
 | `penta` | [Penta](https://dribbble.com/shots/14442760-Penta) |
@@ -131,19 +131,19 @@ Below is the list of all 50, and the names are identical to the `enum` cases in 
 | `rainbow` | [Rainbow](https://dribbble.com/shots/14446305-Rainbow) |
 | `reflect` | [Reflect](https://dribbble.com/shots/14442962-Reflect) |
 | `ripley` | [Ripley](https://dribbble.com/shots/14442939-Ripley) |
-| `ringItIn` |  |
-| `roulette` |  |
+| `ringItIn` | [Ring It In](https://dribbble.com/shots/14447094-Ring-It-In) |
+| `roulette` | [Roulette](https://dribbble.com/shots/14446801-Roulette) |
 | `shiftDrift` | [Shift'n'Drift](https://dribbble.com/shots/14442650-Shift-n-Drift) |
 | `shkwv` | [Shkwv](https://dribbble.com/shots/14446254-Shkwv) |
-| `showingUp` |  |
+| `showingUp` | [Showing Up](https://dribbble.com/shots/14446466-Showing-Up) |
 | `skeu` | [Skeu](https://dribbble.com/shots/14446891-Skeu) |
 | `spinUp` | [Spin Up](https://dribbble.com/shots/14433455-Spin-Up) |
 | `spindle` | [Spindle](https://dribbble.com/shots/14442720-Spindle) |
 | `spinning` | [Spinning](https://dribbble.com/shots/14446235-Spinning) |
-| `splayed` |  |
-| `standby` |  |
+| `splayed` | [Splayed](https://dribbble.com/shots/14447119-Splayed) |
+| `standby` | [Stand By](https://dribbble.com/shots/14446268-Stand-By) |
 | `stretchAround` | [Stretch Around](https://dribbble.com/shots/14419134-Stretch-Around) |
 | `squareUp` | [Shape Up](https://dribbble.com/shots/14433531-Shape-Up) |
-| `triplex` |  |
-| `tumble` |  |
-| `xact` |  |
+| `triplex` | [Triplex](https://dribbble.com/shots/14446658-Triplex) |
+| `tumble` | [Tumble](https://dribbble.com/shots/14447164-Tumble) |
+| `xact` | [Xact](https://dribbble.com/shots/14446577-Xact) |
